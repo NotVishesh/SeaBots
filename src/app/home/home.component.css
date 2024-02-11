@@ -1,0 +1,71 @@
+
+h1 {
+  font-weight: bolder;
+  font-size: 2.5vw; /* Use viewport width for font size */
+  margin-top: 5%;
+}
+
+.full {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 100vh; /* Use minimum height instead of fixed height */
+  background-color: #0b1f3d;
+  color: white;
+}
+
+.main {
+  display: flex; /* Add display flex for side by side layout */
+  flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 5vw; /* Use viewport width for margin */
+  margin-bottom: 5vw; /* Use viewport width for margin */
+  font-size: 2vw; /* Use viewport width for font size */
+}
+
+.picture {
+  max-width: 30%; /* Adjust the width of the picture */
+  height: auto;
+  margin-right: 5vw; /* Add margin for spacing */
+}
+
+.content {
+  flex: 1;
+  font-size: 2vw; /* Use viewport width for font size */
+  padding: 1vw; /* Use viewport width for padding */
+  margin-left: 20%;
+}
+
+.content li {
+  padding-top: 1vw; /* Use viewport width for padding */
+  line-height: 110%;
+}
+
+img {
+  max-width: 100%; /* Ensure the image is responsive */
+  height: auto;
+}
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+  .main {
+    flex-direction: column; /* Change to column layout on smaller screens */
+    align-items: flex-start; /* Align items to the start on smaller screens */
+  }
+
+  .picture {
+    max-width: 100%; /* Make the picture full width on smaller screens */
+    margin-right: 0; /* Remove right margin on smaller screens */
+    margin-bottom: 2vw; /* Add bottom margin for spacing on smaller screens */
+  }
+
+  p,
+  .content,
+  .content li {
+    font-size: 4vw; /* Adjust font size for better readability on smaller screens */
+    padding: 2vw; /* Adjust padding for better spacing on smaller screens */
+    
+  }
+}

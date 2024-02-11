@@ -1,0 +1,200 @@
+/* 
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: white;
+}
+
+footer {
+  background: #071216;
+  padding-top: 50px;
+}
+
+.footer-container {
+  width: 1140px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-content {
+  width: 40%;
+  justify-content: center;
+}
+
+h3 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.footer-content p {
+  width: 190px;
+  margin: auto;
+  padding: 7px;
+}
+
+.footer-content ul {
+  text-align: center;
+}
+
+.list {
+  padding: 0;
+}
+
+.list li {
+  width: auto;
+  text-align: center;
+  list-style-type: none;
+  padding: 7px;
+  position: relative;
+}
+
+.list li::before {
+  content: '';
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 100%;
+  width: 0;
+  height: 2px;
+  background: rgb(255, 252, 252);
+  transition-duration: 0.5s;
+}
+
+.list li:hover::before {
+  width: 70px;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(0, 136, 255);
+}
+
+.bottom-bar {
+  background: #000000;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 50px;
+}
+
+.bottom-bar p {
+  color: #343434;
+  margin: 0;
+  font-size: 16px;
+  padding: 7px;
+}
+.social-icons{
+  display: flex;
+  flex-direction: row;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: white;
+}
+
+footer {
+  background: #071216;
+  padding-top: 5vw; /* Use viewport width for padding */
+}
+
+.footer-container {
+  max-width: 90%; /* Use percentage for flexibility */
+  margin: auto;
+  display: flex;
+  justify-content: space-around; /* Center the content and distribute space evenly */
+  flex-wrap: wrap; /* Allow items to wrap to the next line on smaller screens */
+}
+
+.footer-content {
+  width: 30%; /* Adjust width for flexibility */
+  text-align: center; /* Center the content */
+  margin-bottom: 2vw; /* Use viewport width for margin */
+}
+
+h3 {
+  font-size: 2.5vw; /* Use viewport width for font size */
+  margin-bottom: 1.5vw; /* Use viewport width for margin */
+  text-align: center;
+}
+
+.footer-content p {
+  width: 70%; /* Use percentage for width */
+  margin: auto;
+  padding: 1vw; /* Use viewport width for padding */
+}
+
+.footer-content ul {
+  text-align: center;
+}
+
+.list {
+  padding: 0;
+}
+
+.list li {
+  width: auto;
+  text-align: center;
+  list-style-type: none;
+  padding: 1vw; /* Use viewport width for padding */
+  position: relative;
+}
+
+.list li::before {
+  content: '';
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 100%;
+  width: 0;
+  height: 2px;
+  background: rgb(255, 252, 252);
+  transition-duration: 0.5s;
+}
+
+.list li:hover::before {
+  width: 4vw; /* Use viewport width for width on hover */
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(0, 136, 255);
+}
+
+.bottom-bar {
+  background: #000000;
+  text-align: center;
+  padding: 2vw 0; /* Use viewport width for padding */
+  margin-top: 5vw; /* Use viewport width for margin */
+}
+
+.bottom-bar p {
+  color: #343434;
+  margin: 0;
+  font-size: 1.6vw; /* Use viewport width for font size */
+  padding: 1vw; /* Use viewport width for padding */
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  margin-top: 2vw; /* Use viewport width for margin */
+}
+
+.social-icons a {
+  margin: 0 1vw; /* Use viewport width for margin */
+}

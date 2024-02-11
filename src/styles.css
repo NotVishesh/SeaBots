@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+/* @import "~@fortawesome/fontawesome-free/css/all.css"; */
+
+body{
+    font-family: sans-serif ;
+}
+.container{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+button{
+    background-color: rgb(255, 164, 6);
+    width: 70px;
+    height: 30px;
+    margin: 10px;
+    margin-left: 50px;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+

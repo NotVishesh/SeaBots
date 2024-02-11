@@ -1,0 +1,43 @@
+
+h1{
+  font-weight: bolder;
+  font-size: 40px;
+}
+.full {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  background-color: #0B1F3D;
+  color: white;
+}
+
+.main {
+  flex: 1;
+  padding: 20px;
+  margin-bottom: 180px;
+}
+
+p{
+  font-size: 20.5px;
+  font-family: 'Times New Roman', Times, serif;
+  padding-top: 20px;
+}
+.content {
+  font-size: 1.2em;
+  padding: 30px;
+}
+.content li{
+  padding-top: 10px;
+}
+.picture {
+  flex: 1;
+  text-align: center;
+  max-width: 100%;
+  size: cover;
+}
+
+img {
+  max-width: fit-content;
+  height: 350px;
+}
