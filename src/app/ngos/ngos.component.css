@@ -1,0 +1,37 @@
+.ngo-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 50px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  height: 400px;
+  width: 300px;
+  background-color: rgb(27, 36, 62);
+  border: 4px solid black;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px black;
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.ngo-container {
+  background-color: #0b1f3d;
+
+  padding: 50px 150px;
+}
+.parent {
+  background-color: #0b1f3d;
+}
+.parent h1 {
+  padding-top: 15px;
+}
+.card img:hover {
+  transform: scale(1.1);
+}
