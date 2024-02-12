@@ -2,6 +2,9 @@ import { Routes } from '@angular/router';
 import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
 import { LocationComponent } from './location/location.component';
+import { EffectComponent } from './effect/effect.component';
+import { PreventionComponent } from './prevention/prevention.component';
+import { CausesComponent } from './causes/causes.component';
 import { NgosComponent } from './ngos/ngos.component';
 import { MarineLifeComponent } from './marine-life/marine-life.component';
 import { MarinePollutionComponent } from './marine-pollution/marine-pollution.component';
@@ -36,5 +39,17 @@ export const routes: Routes = [
     {
         path:'marine-pollution',
         component: MarinePollutionComponent,
+    },
+    {
+        path:'prevention',
+        component: PreventionComponent,
+    },
+    {
+        path:'causes',
+        component: CausesComponent,
+    },
+    {
+        path:'effect',
+        component: EffectComponent,
     }
 ];
