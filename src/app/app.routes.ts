@@ -14,6 +14,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 // import { LocationComponent } from './location/location.component';
 import {LocationService} from './location/location.service';
+import { CommunityComponent } from './community/community.component';
+import { DonateComponent } from './donate/donate.component';
 
 
 
@@ -57,6 +59,14 @@ const routeConfig: Routes = [
     {
         path:'effect',
         component: EffectComponent,
+    },
+    {
+        path:'community',
+        component: CommunityComponent
+    },
+    {
+        path:'donate',
+        component: DonateComponent
     }
 ];
 

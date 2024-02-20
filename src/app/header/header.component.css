@@ -60,3 +60,9 @@ li a {
         padding: 1%;
     }
 }
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
