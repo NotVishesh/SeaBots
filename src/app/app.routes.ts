@@ -10,8 +10,14 @@ import { MarineLifeComponent } from './marine-life/marine-life.component';
 import { MarinePollutionComponent } from './marine-pollution/marine-pollution.component';
 import { ExploreComponent } from './explore/explore.component';
 import { FooterComponent } from './footer/footer.component';
+import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
+// import { LocationComponent } from './location/location.component';
+import {LocationService} from './location/location.service';
 
-export const routes: Routes = [
+
+
+const routeConfig: Routes = [
     {
         path:'',
         component: HomeComponent,
@@ -21,7 +27,7 @@ export const routes: Routes = [
         component: AboutComponent,
     },
     {
-        path:'location',
+        path: 'location',
         component: LocationComponent,
     },
     {
@@ -53,3 +59,6 @@ export const routes: Routes = [
         component: EffectComponent,
     }
 ];
+
+
+export {routeConfig};

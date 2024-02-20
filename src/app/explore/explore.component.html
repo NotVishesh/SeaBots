@@ -1,12 +1,12 @@
-<div class="item-container">
+<!-- <div class="item-container">
     <div class="itemss">
         <button class="item1">
-            <a href="marine-life"><img
+            <a [routerLink]="['/marine-life']"><img
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI7gSwBflIjitVuN4ClSZptIb2z9vFnupkAaUV1qoxcH1P1rAey1BJSMPCZYGty-QgSVg&usqp=CAU"
                     alt="marine life" /></a>
         </button>
         <br>
-        <a href="marine-life">
+        <a [routerLink]="['/marine-life']">
             <h2>MARINE LIFE</h2>
         </a>
         <p>Dive into the world under water...</p>
@@ -14,13 +14,13 @@
 
     <div class="itemss">
         <button class="item2">
-            <a href="marine-pollution"><img
+            <a [routerLink]="['/marine-pollution']"><img
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT73usaUmCBOfI9QRO9p_ZZhrMvzpldKQjJkmZLuFQZTY4a_8gc"
                     alt="marine pollution" /></a>
         </button>
         <br>
         
-        <a href="marine-pollution">
+        <a [routerLink]="['marine-pollution']">
             <h2>MARINE POLLUTION</h2>
         </a>
         <p>Save marine lives with Us...</p>
@@ -28,13 +28,56 @@
 
     <div class="itemss">
         <button class="item3">
-            <a href="ngos" routerLink="/ngo">
+            <a [routerLink]="['/ngo']">
                 <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR40RQF66tMGOAj39cp0NSCJ8lapnOMBZVixFfzazR54LTZfEEI"
                     alt="organizations" /></a>
         </button>
         <br>
         <a href="ngos">
             <h2>NGOS/ORGANIZATIONS</h2>
+        </a>
+        <p>Get contribute together...</p>
+    </div>
+</div> -->
+<div class="item-container">
+    <div class="itemss">
+        <button class="item1">
+            <a href="/marine-life">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI7gSwBflIjitVuN4ClSZptIb2z9vFnupkAaUV1qoxcH1P1rAey1BJSMPCZYGty-QgSVg&usqp=CAU"
+                     alt="marine life" />
+            </a>
+        </button>
+        <br>
+        <a href="/marine-life">
+            <h2>MARINE LIFE</h2>
+        </a>
+        <p>Dive into the world underwater...</p>
+    </div>
+
+    <div class="itemss">
+        <button class="item2">
+            <a href="/marine-pollution">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT73usaUmCBOfI9QRO9p_ZZhrMvzpldKQjJkmZLuFQZTY4a_8gc"
+                     alt="marine pollution" />
+            </a>
+        </button>
+        <br>
+        
+        <a href="/marine-pollution">
+            <h2>MARINE POLLUTION</h2>
+        </a>
+        <p>Save marine lives with us...</p>
+    </div>
+
+    <div class="itemss">
+        <button class="item3">
+            <a href="/ngos">
+                <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR40RQF66tMGOAj39cp0NSCJ8lapnOMBZVixFfzazR54LTZfEEI"
+                     alt="organizations" />
+            </a>
+        </button>
+        <br>
+        <a href="/ngos"><h2>NGOS/ORGANIZATIONS</h2>
         </a>
         <p>Get contribute together...</p>
     </div>

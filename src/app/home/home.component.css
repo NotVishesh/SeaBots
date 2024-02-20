@@ -51,21 +51,21 @@ img {
 /* Media query for responsive design */
 @media (max-width: 768px) {
   .main {
-    flex-direction: column; /* Change to column layout on smaller screens */
-    align-items: flex-start; /* Align items to the start on smaller screens */
+    flex-direction: column; 
+    align-items: flex-start;
   }
 
   .picture {
-    max-width: 100%; /* Make the picture full width on smaller screens */
-    margin-right: 0; /* Remove right margin on smaller screens */
-    margin-bottom: 2vw; /* Add bottom margin for spacing on smaller screens */
+    max-width: 100%;
+    margin-right: 0;
+    margin-bottom: 2vw; 
   }
 
   p,
   .content,
   .content li {
-    font-size: 4vw; /* Adjust font size for better readability on smaller screens */
-    padding: 2vw; /* Adjust padding for better spacing on smaller screens */
+    font-size: 4vw; 
+    padding: 2vw; 
     
   }
 }
