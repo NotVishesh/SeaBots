@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { LocationService } from './location.service'; // Import LocationService
-import * as L from 'leaflet';
 
 @Component({
   selector: 'app-location',
@@ -18,6 +17,9 @@ export class LocationComponent {
         const longitude = position.coords.longitude;
 
         console.log(latitude + " " + longitude)
+
+
+        
 
         // Send location data to the server using the LocationService
       //   this.locationService.sendLocation(latitude, longitude)
